@@ -3,6 +3,7 @@
     src: url(/assets/fonts/Bebas-Regular.otf);
 }
 
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +11,13 @@
 }
 
 body {
-    background-color: rgba(0, 0, 0, 0.856);
+    background: url(/assets/img/Valorant-Ascent-—-Live-Wallpaper.gif)no-repeat center;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .navbar {
@@ -19,6 +26,8 @@ body {
     display: flex;
     flex-direction: row;
     color: white;
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
 }
 
 .navbar-profile {
@@ -73,8 +82,8 @@ body {
 }
 
 ion-icon {
-    font-size: 29px;
-    padding: 10px 0 10px 0;
+    font-size: 20px;
+    padding: 10px 4px 10px 0;
 }
 
 .card-profile {
@@ -83,14 +92,14 @@ ion-icon {
 
 /* Features */
 
-.features{
+.features {
     display: flex;
     flex-direction: column;
     padding: 70px 40px 0 0;
-    float:right;
+    float: right;
 }
 
-.itens-features{
+.itens-features {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,7 +133,7 @@ ion-icon {
     border: 1px solid white;
 }
 
-.card-trailer{
+.card-trailer {
     width: 18rem;
     height: auto;
     background-color: #303540;
@@ -159,28 +168,35 @@ ion-icon {
 .text-modes {
     display: flex;
     align-items: center;
-    width: 10rem;
+    width: 9.7rem;
     padding: 0 0 0 5px;
     background: #55555565;
     font-family: font;
     color: #fff;
 }
+
 .text-patch {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 18rem;
+    height: 39px;
     background: #2452448f;
-    font-family: font;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
     color: #fff;
 }
+
 .num-patch {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 18rem;
+    height: 20px;
     background: #7e8a8e;
-    font-family: font;
+    font-size: 0.8rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
     color: #fff;
 }
 
@@ -188,9 +204,10 @@ ion-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 4.5rem;
+    width: 5rem;
+    font-size: 0.8rem;
     background: #3b3b3b65;
-    font-family: font;
+    font-family: 'Inter', sans-serif;
     color: #fff;
 }
 
@@ -219,6 +236,8 @@ ion-icon {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 0.9rem;
+    font-family: font;
 }
 
 .itens-content {
@@ -230,7 +249,7 @@ ion-icon {
     color: white;
 }
 
-.itens-content:hover{
+.itens-content:hover {
     cursor: pointer;
     transform: translate(10px, 0px);
     transition-duration: .2s;
