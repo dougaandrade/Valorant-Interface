@@ -16,7 +16,6 @@ Clone este repositório:
 bash
 Copy code
 git clone https://github.com/dougaandrade/Valorant-Menu-Project.git
-Navegue até a pasta do projeto:
 
 bash
 Copy code
