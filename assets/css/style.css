@@ -6,11 +6,7 @@
 }
 
 body {
-<<<<<<< HEAD
     background: url("../img/Valorant-Ascent-—-Live-Wallpaper.gif")no-repeat center;
-=======
-    background: url(./img/Valorant-Ascent-—-Live-Wallpaper.gif)no-repeat center;
->>>>>>> c812b82373c358b2094107eff8394c75acf12f5f
     height: 100vh;
     max-width: 100%;
     background-position: center;
