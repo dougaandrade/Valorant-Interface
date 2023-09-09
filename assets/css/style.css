@@ -35,6 +35,7 @@ body {
     display: flex;
     flex-direction: row;
     color: white;
+    cursor: pointer;
 }
 
 .nav-bar-vlrt {
@@ -45,6 +46,7 @@ body {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    cursor: pointer;
 
 }
 
@@ -58,6 +60,7 @@ body {
     align-items: center;
     background-color: #141d2880;
 }
+
 
 .menu-game {
     display: flex;
@@ -104,7 +107,36 @@ ion-icon {
     justify-content: center;
     align-items: center;
     padding: 5px 0 0 0;
+    cursor: pointer;
+}
 
+.text-coll {
+    padding: 19rem 0 0 1rem;
+    position: absolute;
+    font-family: font;
+    font-size: 3rem;
+    color: #ffffffe3;
+}
+
+.text-coll-p {
+    padding: 22.8rem 0 0 1rem;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #ffffffb2;
+}
+
+.text-chat {
+    display: flex;
+    padding: 0 5px 0 10px;
+    align-items: center;
+    font-family:'Inter', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: #00e1ff;
 }
 
 .card-ammo,
@@ -112,6 +144,32 @@ ion-icon {
     width: 18rem;
     height: auto;
     border: 1px solid white;
+}
+
+.chat {
+    display: flex;
+    width: 19rem;
+    height: 2rem;
+    margin-top: 52.96rem;
+    position: absolute;
+}
+
+.card-chat {
+    display: flex;
+    width: 20rem;
+    height: 2rem;
+    align-content: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+.caixa-text-chat {
+    width: 13rem;
+    height: 1.3rem;
+    border-radius: 1px;
+    border:none;
+    background-color: rgba(70, 70, 70, 0.123);
 }
 
 .text-features {
@@ -220,6 +278,11 @@ ion-icon {
     height: 30px;
 }
 
+.icon-chat{
+    padding: 0 0 0 10px;
+    color: white;
+}
+
 .people {
     width: 45px;
     height: 45px;
@@ -257,7 +320,7 @@ ion-icon {
 }
 
 .red {
-    color: rgb(219, 26, 26);
+    color: rgb(255, 0, 0);
     font-size: 5rem;
     font-weight: 500;
 }
