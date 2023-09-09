@@ -13,7 +13,7 @@
 body {
     background: url(/assets/img/Valorant-Ascent-—-Live-Wallpaper.gif)no-repeat center;
     height: 100vh;
-    width: 100%;
+    max-width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,7 +98,7 @@ ion-icon {
 .features {
     display: flex;
     flex-direction: column;
-    padding: 70px 40px 0 0;
+    padding: 20px 10px 0 0;
     float: right;
 }
 
