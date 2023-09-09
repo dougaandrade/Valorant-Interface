@@ -1,0 +1,244 @@
+@font-face {
+    font-family: Font;
+    src: url(/assets/fonts/Bebas-Regular.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.856);
+}
+
+.navbar {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.navbar-profile {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.nav-bar-vlrt {
+    width: 100%;
+    padding: 0 10px 0 0;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.nav-bar-vlrt-bar {
+    padding: 3px;
+    gap: 3px;
+    height: 54.9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #141d2880;
+}
+
+.menu-game {
+    display: flex;
+    padding: 200px 0 0 20px;
+    float: left;
+}
+
+
+.vlr-icon {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.icon-nm {
+    width: 15px;
+}
+
+.icons-vp-rp {
+    width: 26px;
+    padding: 5px;
+}
+
+ion-icon {
+    font-size: 29px;
+    padding: 10px 0 10px 0;
+}
+
+.card-profile {
+    width: 45px;
+}
+
+/* Features */
+
+.features{
+    display: flex;
+    flex-direction: column;
+    padding: 70px 40px 0 0;
+    float:right;
+}
+
+.itens-features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0 0 0;
+
+}
+
+.card-ammo,
+.card-feature {
+    width: 18rem;
+    height: auto;
+    border: 1px solid white;
+}
+
+.text-features {
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    padding: 3px 0 10px 0;
+    text-align: center;
+    color: #fff;
+    font-family: font;
+}
+
+.card-modes {
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    height: 84px;
+    backdrop-filter: blur(14%);
+    background-color: rgba(0, 0, 0, 0.233);
+    border: 1px solid white;
+}
+
+.card-trailer{
+    width: 18rem;
+    height: auto;
+    background-color: #303540;
+    border: 1px solid white;
+}
+
+.card-patch {
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    height: auto;
+    backdrop-filter: blur(14%);
+    background-color: rgba(0, 0, 0, 0.151);
+    border: 1px solid white;
+}
+
+.content-modes {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.logo-modes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #55555538;
+}
+
+.text-modes {
+    display: flex;
+    align-items: center;
+    width: 10rem;
+    padding: 0 0 0 5px;
+    background: #55555565;
+    font-family: font;
+    color: #fff;
+}
+.text-patch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18rem;
+    background: #2452448f;
+    font-family: font;
+    color: #fff;
+}
+.num-patch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18rem;
+    background: #7e8a8e;
+    font-family: font;
+    color: #fff;
+}
+
+.time-mode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.5rem;
+    background: #3b3b3b65;
+    font-family: font;
+    color: #fff;
+}
+
+.center {
+    text-align: center !important;
+}
+
+.spike-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.people {
+    width: 45px;
+    height: 45px;
+    font-family: Font;
+    background-color: #303540;
+}
+
+.itens {
+    display: flex;
+    align-items: center;
+}
+
+.itens-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.itens-content {
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    font-family: Font;
+    font-weight: 500;
+    color: white;
+}
+
+.itens-content:hover{
+    cursor: pointer;
+    transform: translate(10px, 0px);
+    transition-duration: .2s;
+    color: aqua;
+}
+
+.red {
+    color: rgb(219, 26, 26);
+    font-size: 5rem;
+    font-weight: 500;
+}
