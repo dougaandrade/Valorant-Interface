@@ -20,7 +20,6 @@ git clone https://github.com/dougaandrade/Valorant-Menu-Project.git
 bash
 Copy code
 cd Valorant-Menu-Project
-Abra o arquivo index.html em seu navegador preferido.
 
 Contribuição
 Se você deseja contribuir para este projeto, sinta-se à vontade para abrir issues, enviar pull requests ou propor melhorias. Estamos abertos a colaborações!
