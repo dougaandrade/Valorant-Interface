@@ -1,0 +1,463 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background: url("../img/Valorant-Ascent-—-Live-Wallpaper.gif")no-repeat center;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.812);
+    height: 100%;
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ion-icon {
+    font-size: 20px;
+    padding: 10px 4px 10px 0;
+}
+
+main {
+    margin: 0 auto;
+}
+
+/* Navbar Principal */
+
+.navbar {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-bar-vlrt {
+    width: 100%;
+    padding: 0 10px 0 0;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    list-style: none;
+}
+
+.card-text-nav {
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.text-nav1 {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 900;
+    padding: 0 0 5px 0;
+}
+
+.text-nav2 {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.back-icon {
+    font-size: 25px;
+}
+
+.vlr-icon {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+
+.itens-ion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.icon-nm {
+    width: 15px;
+}
+
+.icons-vp-rp {
+    width: 26px;
+    padding: 5px;
+}
+
+.itens-navbar {
+    display: flex;
+    align-items: center;
+}
+
+/* Fim Navbar */
+
+/* NavbarProfile */
+
+.navbar-profile {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-bar-vlrt-bar {
+    max-width: 100%;
+    padding: 3px;
+    gap: 3px;
+    height: 54.95rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #141d2880;
+}
+
+.itens-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.card-profile {
+    width: 45px;
+}
+
+.people {
+    width: 45px;
+    height: 45px;
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: #303540;
+}
+
+/* Fim NavBarProfile */
+
+/* Select Game */
+
+
+.select-mode {
+    max-width: 90rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0 0 0;
+    justify-content: center;
+}
+
+.radio-input input {
+    display: none;
+}
+
+.radio-input {
+    --container_width: 97%;
+    position: relative;
+    display: flex;
+    height: 2.3rem;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    justify-content: center;
+    text-transform: uppercase;
+    width: var(--container_width);
+    overflow: hidden;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.986);
+}
+
+.radio-input label {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    font-weight: 900;
+    letter-spacing: -1px;
+    font-size: 0.8rem;
+}
+
+.radio-input label:has(input:checked) {
+    color: #30e7ee;
+    border-bottom: 2px solid #30e7ee;
+}
+
+/* Fim Select Game */
+
+/* Party */
+
+.close-party {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0 0 0;
+}
+
+.card-party {
+    display: flex;
+    align-items: center;
+    width: 15rem;
+    height: 2.6rem;
+    background-color: #99999956;
+}
+
+.text-party {
+    display: flex;
+    justify-content: center;
+    padding: 0 25px 0 70px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 1em;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: '';
+    height: 24px;
+    width: 24px;
+    bottom: -2px;
+    background-color: #929292;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    background-color: #ffffff;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(35px);
+    -ms-transform: translateX(35px);
+    transform: translateX(35px);
+    background-color: #929292;
+}
+
+/* Fim Party */
+
+
+/* Player */
+.select-player {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.card-player {
+    width: 98%;
+    padding: 3rem 0 0 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    width: 17rem;
+    height: 36rem;
+    color: #ffffff;
+    background-color: #92929218;
+    border-top: 1px solid #ffffff68;
+    border-left: 1px solid #ffffff12;
+    border-right: 1px solid #ffffff12;
+}
+
+.text-select {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0 0 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+/* Fim Player */
+
+/* SelectPlay */
+.select-play {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0 70px 0;
+    gap: 40px;
+    cursor: pointer;
+}
+
+.card-start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16rem;
+    height: 3.3rem;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffffff;
+    font-size: 1rem;
+    background: linear-gradient(0deg, #fd3e89 0%, rgba(222, 34, 34, 0.687) 100%);
+    border: 1px solid #ffffff;
+}
+
+.card-leave {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+    height: 2rem;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 0.4rem;
+    background-color: #92929218;
+    border: 1px solid #ffffff;
+}
+
+.card-pratice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+    height: 2rem;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 0.4rem;
+    background-color: #92929218;
+    border: 1px solid #ffffff;
+}
+
+.card-pratice:hover {
+    background-color: #9292927b;
+}
+
+.card-leave:hover {
+    background-color: #9292927b;
+}
+
+.card-start:hover {
+    background-color: #9292927b;
+}
+
+.player:hover {
+    background-color: #9292927b;
+}
+
+/* Fim SelectPlay */
+
+/* CHAT */
+
+.chat {
+    display: flex;
+    width: 19rem;
+    height: 2rem;
+    margin-top: -11px;
+    position: absolute;
+}
+
+.card-chat {
+    display: flex;
+    width: 20rem;
+    height: 2rem;
+    align-content: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+.text-chat {
+    display: flex;
+    padding: 0 5px 0 10px;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: #00e1ff;
+}
+
+.caixa-text-chat {
+    width: 13rem;
+    height: 1.3rem;
+    border-radius: 1px;
+    border: none;
+    background-color: rgba(70, 70, 70, 0.123);
+}
+
+.icon-chat {
+    padding: 0 0 0 10px;
+    color: white;
+}
+
+/* Final Chat */
