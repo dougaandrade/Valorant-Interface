@@ -121,7 +121,7 @@ main {
     max-width: 100%;
     padding: 3px;
     gap: 3px;
-    height: 61.33rem;
+    height: 54.95rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -155,7 +155,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-        padding: 10px;
+    padding: 10px;
 }
 
 .content-store {
@@ -206,7 +206,7 @@ main {
 
 .img-store {
     max-width: 100%;
-    width: 100%;
+    width: 70rem;
     border: 1px solid #fff;
 }
 
@@ -237,6 +237,7 @@ main {
     text-transform: uppercase;
     font-size: 1.2rem;
 }
+
 .text-offer-span {
     color: #fff;
     font-family: 'Inter', sans-serif;
@@ -244,6 +245,7 @@ main {
     font-size: 1.2rem;
     padding: 5px;
 }
+
 .text-offer-h2 {
     color: #fff;
     font-family: 'Inter', sans-serif;
@@ -252,18 +254,85 @@ main {
 }
 
 hr {
-    width: 27rem;
+    width: 35rem;
 }
 
 /* Fim Offer */
 
 /* Card Arms */
-.cards-arms{
+.cards-arms {
     max-width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+}
+
+.card {
+    width: 220px;
+    height: 140px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.335);
+    transition: all 0.3s;
+    border-bottom: 1px solid #ffffff;
+}
+
+.content-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.img0 {
+    width: 100%;
+    aspect-ratio: 10/3;
+    display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    rotate: 45deg;
+    z-index: -10;
 }
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+
+.text-arms-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.text-arms-h1 {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+.text-arms-h2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    gap: 1px;
+}
+
+.text-arms-p {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
 /* Fim Arms */
