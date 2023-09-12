@@ -63,7 +63,8 @@ cards.forEach((card, index) => {
         // Cria e exibe a nova imagem selecionada
         const imgSelecionada = document.createElement("img");
         imgSelecionada.src = imagens[index];
-        imgSelecionada.style.margin = "10rem";
+        imgSelecionada.className = "armas_main"
+        imgSelecionada.style.margin = "2rem";
         img_main.appendChild(imgSelecionada);
 
         imagemAtual = index; // Atualiza o índice da imagem atual

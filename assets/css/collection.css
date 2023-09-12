@@ -116,18 +116,17 @@ main {
 /* NavbarProfile */
 
 .navbar-profile {
-    float: right;
     display: flex;
     flex-direction: row;
+    float: right;
     color: white;
     cursor: pointer;
 }
 
 .nav-bar-vlrt-bar {
-    max-width: 100%;
     padding: 3px;
     gap: 3px;
-    height:54.94rem;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -156,258 +155,167 @@ main {
 
 /* Fim NavBarProfile */
 
-/* Select EP */
-.text-episode {
-    color: #eff2a2;
-    font-size: 4rem;
-    letter-spacing: 3px;
+/* Main Collection */
+.card-collection {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+/* Fim Collection */
+
+
+/* Player Card & Spray */
+
+.card-player-spray {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.player {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.img-player {
+    width: 80%;
+    aspect-ratio: 1/2;
+    height: auto;
+}
+
+.text-player-h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Bebas Neue', sans-serif;
-}
-
-.select-episode {
-    max-width: 100%;
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 1rem 0 0 0;
-    justify-content: center;
-}
-
-.radio-input input {
-    display: none;
-}
-
-.radio-input {
-    width: 35%;
-    position: relative;
-    display: flex;
-    height: 2.3rem;
-    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 200;
     color: #ffffff;
-    font-family: 'Inter', sans-serif;
-    justify-content: center;
-    text-transform: uppercase;
-    overflow: hidden;
-    border-bottom: 1px solid #ffffff;
 }
 
-.radio-input label {
-    width: 100%;
-    padding: 10px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    font-weight: 900;
-    letter-spacing: -1px;
-    font-size: 0.8rem;
-}
-
-.radio-input label:has(input:checked) {
-    color: #ffffff;
-    background: #8e8e8e69;
-    border-bottom: 4px solid #eff2a2;
-}
-
-/* Fim Select Game */
-
-/* Buy Card */
-
-.card-buy{
-    max-width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    padding:10px 25rem 10px 0;
-}
-
-.icons-vp-buy{
-    width: 20px;
-    height: 20px;
-}
-
-.card-buy-content{
+.spray {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 14rem;
-    background: #74b6aabc;
-    border: 2px solid #ffff;
-    
-}
-
-.text-card-buy-h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-size: 1.3rem;
-    color: #fff;
     gap: 5px;
-    
-}
-.text-card-buy-p{
-    background: #e5ebb6;
-    text-align: center;
-    font-size: 0.8rem;
-    font-family: 'Bebas Neue', sans-serif;
-    letter-spacing: 1px;
-    padding:2px 0 2px 0;
-    font-weight: 500;
-}
-/* Fim Buy */
-
-/* Arms */
-
-.armas_main{
-    width: 40rem;
-    aspect-ratio: 18/10;
-    object-fit: contain;
 }
 
-.arms_content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: static;
-}
-
-/* Fim Arms */
-
-/* EP Itens */
-
-.episode {
-    max-width: 100%;
+.card-spray {
+    width: 13rem;
     height: auto;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-    margin: 0.9rem;
-    gap: 10px;
+    background-color: #09387018;
 }
 
-.card-recompensa{
-    display:flex;
+.content-spray {
+
+    display: flex;
     align-items: center;
     flex-direction: column;
-    padding-inline: 20px;
 }
 
-.content-recompensa{
+.text-spray-h1 {
+    max-width: 100%;
     display: flex;
-    flex-direction: row;
-    gap: 10px;
-}
-.text-card-recom{
-    margin: 8.5rem 9.7rem 0 0;
-    position: absolute;
-    font-family: 'Inter', sans-serif;   
-    color: #fff;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-}
-
-.card,
-.card1,
-.card2,
-.card3,
-.card4,
-.card5,
-.card6 {
-    width: 120px;
-    height: auto;
-    background: #ffffff4d;
-    transition: all 0.3s;
-    border: 1px solid #ffffff;
-    background-size: cover;
-    background-position: center;
-}
-
-.img0 {
-    background-image: url('../img/ammo1.webp');
-}
-
-.img1 {
-    background-image: url('../img/ammo2.webp');
-}
-
-.img2 {
-    background-image: url('../img/ammo3.webp');
-}
-
-.img3 {
-    background-image: url('../img/ammo4.webp');
-}
-
-.img4 {
-    background-image: url('../img/ammo5.webp');
-}
-
-.img5 {
-    background-image: url('../img/ammo6.webp');
-
-}
-
-.img6 {
-    background-image: url('../img/ammo7.webp');
-}
-
-.card:hover,
-.card1:hover,
-.card2:hover,
-.card3:hover,
-.card4:hover,
-.card5:hover,
-.card6:hover {
-    transform: scale(1.05);
-}
-
-
-
-.title {
-    margin: 15px 0 0 15px;
-    font-weight: 900;
-    font-size: 15px;
-    letter-spacing: 1.5px;
-}
-
-.ep-basic {
-    display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 80px 0px 0 0px;
-    font-size: 10px;
-    font-weight: 900;
-    gap: 53px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: #ffffff;
 }
 
-.span {
-    color: #fff;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 13px;
-}
-
-.icon-close {
-    color: #f2f687;
-}
-
-.hr-itens {
+.text-spray {
     max-width: 100%;
-    margin: 0 auto;
-    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 100;
+    width: 14rem;
+    height: 1.5rem;
+    color: #ffffff;
+    background-color: #0229592d;
 }
 
-.ammo_display {
-    margin:7.7rem;
+.img-spray {
+    max-width: 100%;
+    width: 60px;
+    height: 60px;
 }
 
-/* Fim  EP Itens */
+/* Fim PLayer & Spray */
+
+/* SIDEARMS */
+
+.container-side{
+    display: flex;
+    flex-direction: column;
+    border: 1px red solid;
+    gap: 60px;
+}
+
+.side_arms {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-side-h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+   color: #ffffff;
+}
+
+.card-side {
+    display: flex;
+    max-width: 100%;
+    width: 12rem;
+    background-color: #09387018;
+}
+
+.content-side {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.text-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 100;
+    width: 12rem;
+    padding: 2px;
+    color: #ffffff;
+    background-color: #0229592d;
+}
+
+.img-side {
+    object-fit: scale-down;
+    width: 10rem;
+    padding: 15px;
+    height: 5rem;
+}
+
+/* Fim SIDEARMS */
 
 /* CHAT */
 
