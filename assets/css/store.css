@@ -270,7 +270,8 @@ hr {
 }
 
 .card {
-    width: 220px;
+    max-width: 100%;
+    width: 210px;
     height: 140px;
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.335);
@@ -306,6 +307,7 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    padding: 0 0 10px 4px;
 }
 
 .text-arms-h1 {
