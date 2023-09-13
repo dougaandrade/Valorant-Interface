@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background: url("../img/Valorant-Ascent-—-Live-Wallpaper.gif")no-repeat center;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.883);
+    height: 100%;
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ion-icon {
+    font-size: 20px;
+    padding: 10px 4px 10px 0;
+}
+
+main {
+    margin: 0 auto;
+}
+
+#container {
+    margin: 20px;
+    width: 400px;
+    height: 8px;
+}
+
+/* Navbar Principal */
+
+.navbar {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-bar-vlrt {
+    width: 100%;
+    padding: 0 10px 0 0;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    list-style: none;
+}
+
+.card-text-nav {
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.text-nav1 {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 900;
+    padding: 0 0 5px 0;
+}
+
+.text-nav2 {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.back-icon {
+    font-size: 25px;
+}
+
+.vlr-icon {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+
+.itens-ion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.icon-nm {
+    width: 15px;
+}
+
+.icons-vp-rp {
+    width: 26px;
+    padding: 5px;
+}
+
+.itens-navbar {
+    display: flex;
+    align-items: center;
+}
+
+/* Fim Navbar */
+
+/* NavbarProfile */
+
+.navbar-profile {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-bar-vlrt-bar {
+    max-width: 100%;
+    padding: 3px;
+    gap: 3px;
+    height: 54.94rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #141d2880;
+}
+
+.itens-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.card-profile {
+    width: 45px;
+}
+
+.people {
+    width: 45px;
+    height: 45px;
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: #303540;
+}
+
+/* Fim NavBarProfile */
+
+
+
+/* Buy Card */
+
+.card-buy {
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 25rem 10px 0;
+}
+
+.icons-vp-buy {
+    width: 20px;
+    height: 20px;
+}
+
+.card-buy-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 14rem;
+    background: #74b6aabc;
+    border: 2px solid #ffff;
+
+}
+
+.text-card-buy-h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3rem;
+    color: #fff;
+    gap: 5px;
+
+}
+
+.text-card-buy-p {
+    background: #e5ebb6;
+    text-align: center;
+    font-size: 0.8rem;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1px;
+    padding: 2px 0 2px 0;
+    font-weight: 500;
+}
+
+/* Fim Buy */
+
+/* Arms */
+
+.armas_main {
+    width: 40rem;
+    aspect-ratio: 18/10;
+    object-fit: contain;
+}
+
+.arms_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: static;
+}
+
+/* Fim Arms */
+
+/* EP Itens */
+
+.episode {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0.9rem;
+    gap: 10px;
+}
+
+.card {
+    width: 110px;
+    height: 110px;
+    background: #ffffff4d;
+    transition: all 0.3s;
+    border: 1px solid #ffffff;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.content-card {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.icon-agents {
+    width: 100%;
+}
+
+.icon-close {
+    padding: 5px 3px 5px 0px;
+    position: absolute;
+    color: #f2f687;
+}
+
+.hr-itens {
+    max-width: 100%;
+    margin: 0 auto;
+    width: 55%;
+}
+
+.ammo_display {
+    margin: 7.7rem;
+}
+
+/* Fim  EP Itens */
+
+/* CHAT */
+
+.chat {
+    display: flex;
+    width: 19rem;
+    height: 2rem;
+}
+
+.card-chat {
+    display: flex;
+    width: 20rem;
+    height: 2rem;
+    align-content: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+.text-chat {
+    display: flex;
+    padding: 0 5px 0 10px;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: #00e1ff;
+}
+
+.caixa-text-chat {
+    width: 13rem;
+    height: 1.3rem;
+    border-radius: 1px;
+    border: none;
+    background-color: rgba(70, 70, 70, 0.123);
+}
+
+.icon-chat {
+    padding: 0 0 0 10px;
+    color: white;
+}
+
+/* Final Chat */
