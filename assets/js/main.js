@@ -71,16 +71,6 @@ cards.forEach((card, index) => {
     });
 });
 
-$(document).ready(function () {
-    $('.carrossel').slick({
-        autoplay: true,
-        autoplaySpeed: 3000,
-        vertical: true,
-        arrows: false,
-        slidesToShow: 3,
-        slidesToScroll: 1
-    });
-});
 
 
 
