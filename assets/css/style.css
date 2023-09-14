@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -10,10 +9,13 @@ a {
 
 }
 
+
 body {
     background: url("../img/Valorant-Ascent-—-Live-Wallpaper.gif")no-repeat center;
     height: 100vh;
     max-width: 100%;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.571);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,25 +24,25 @@ body {
 
 ion-icon {
     font-size: 20px;
-    padding: 10px 4px 10px 0;
+    padding: 10px;
 }
 
 /* Navbar Principal */
 
 .navbar {
     width: 100%;
-    height: 45px;
+    height: 50px;
     display: flex;
     flex-direction: row;
     color: white;
     font-size: 0.9rem;
+    font-weight: 600;
     font-family: 'Inter', sans-serif;
 }
 
 .nav-bar-vlrt {
     width: 100%;
-    padding: 0 10px 0 0;
-    gap: 10px;
+    gap: 3px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -48,10 +50,69 @@ ion-icon {
     cursor: pointer;
 }
 
-.vlr-icon {
-    width: 60px;
-    height: 60px;
+.logo-content {
+    width: 100%;
     padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.miss-nav {
+    display: flex;
+    padding: 0 0.9rem 0 0rem;
+}
+
+.point-nav {
+    display: flex;
+    padding: 0 1rem 0 2rem;
+}
+
+.settings-nav {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.vlr-icon {
+    width: 50px;
+    /* border: 3px solid #fff; */
+    height: 50px;
+}
+
+.text-nav {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 10px;
+    font-size: 3rem;
+    font-weight: 100;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.text-nav-p {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 300;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.play-navbar {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 40px;
+    background: #ff0000;
+    color: #ffffff;
+    clip-path: polygon(0% 0, 100% 0, 90% 100%, 10% 100%);
+}
+
+.text-play-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .itens-ion {
@@ -67,8 +128,20 @@ ion-icon {
 }
 
 .icons-vp-rp {
-    width: 26px;
+    width: 27px;
     padding: 5px;
+}
+
+.icons-miss {
+    display: flex;
+    align-items: center;
+    width: 25px;
+    padding: 2px;
+}
+
+.itens-navbar {
+    display: flex;
+    align-items: center;
 }
 
 /* Fim Navbar */
@@ -86,12 +159,13 @@ ion-icon {
 .nav-bar-vlrt-bar {
     padding: 3px;
     gap: 3px;
-    height: 54.9rem;
+    height: 94.6vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: #141d2880;
+    background-color: #303b46;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
 }
 
 .itens-bar {
@@ -119,14 +193,16 @@ ion-icon {
 
 .menu-game {
     display: flex;
-    padding: 200px 0 0 20px;
+    padding: 40px 0 0 40px;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
     float: left;
 }
 
 .itens-content {
     display: flex;
-    align-items: center;
-    font-size: 3rem;
+    font-size: 3.4rem;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 500;
     color: white;
@@ -141,8 +217,7 @@ ion-icon {
 
 .red {
     color: rgb(255, 0, 0);
-    font-size: 5rem;
-    font-weight: 500;
+    font-size: 6rem;
 }
 
 /* Fim Menu Game */
@@ -152,7 +227,7 @@ ion-icon {
 .features {
     display: flex;
     flex-direction: column;
-    padding: 20px 10px 0 0;
+    padding: 50px 30px 0 0;
     float: right;
 }
 
@@ -196,7 +271,8 @@ ion-icon {
     padding: 3px 0 10px 0;
     text-align: center;
     color: #fff;
-    font-family: 'Bebas Neue', sans-serif;;
+    font-family: 'Bebas Neue', sans-serif;
+    ;
 }
 
 .card-modes {
@@ -267,7 +343,6 @@ ion-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 18rem;
     height: 20px;
     background: #7e8a8e;
     font-size: 0.8rem;
@@ -296,10 +371,6 @@ ion-icon {
     height: 30px;
 }
 
-.itens-navbar {
-    display: flex;
-    align-items: center;
-}
 
 /* CHAT */
 
