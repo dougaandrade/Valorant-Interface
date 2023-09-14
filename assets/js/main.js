@@ -50,7 +50,7 @@ const imagens = [
 
 const imgprinc = document.querySelector(".ammo_display");
 const img_main = document.querySelector(".arms_content");
-const cards = document.querySelectorAll(".card, .card1, .card2, .card3, .card4, .card5, .card6");
+const cards = document.querySelectorAll(".card");
 let imagemAtual = 0; // Armazena o índice da imagem atual
 
 cards.forEach((card, index) => {
