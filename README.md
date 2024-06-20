@@ -13,14 +13,12 @@ Animação de Logotipo: O logotipo do Valorant é animado quando a página é ca
 
 ## Como Utilizar
 
-bash
-Copy code
+```bash
 git clone https://github.com/dougaandrade/Valorant-Menu-Project.git
-
-bash
-Copy code
+````
+```bash
 cd Valorant-Menu-Project
-
+```
 ## Contribuição
 <br>
 Se você deseja contribuir para este projeto, sinta-se à vontade para abrir issues, enviar pull requests ou propor melhorias. Estamos abertos a colaborações!
