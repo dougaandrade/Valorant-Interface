@@ -1,4 +1,4 @@
-## Menu Inicial do Valorant
+# Menu Inicial do Valorant
 
 ![preview](preview.png)
 
