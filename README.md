@@ -1,5 +1,7 @@
 ## Menu Inicial do Valorant
 
+![preview](preview.png)
+
 Este é um projeto de um menu inicial inspirado no jogo Valorant, desenvolvido com HTML, CSS e JavaScript. O objetivo deste menu é criar uma interface de usuário semelhante à do Valorant, proporcionando aos jogadores e fãs uma experiência autêntica ao iniciar o jogo.
 
 ## Funcionalidades
