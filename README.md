@@ -7,11 +7,11 @@ Animação de Logotipo: O logotipo do Valorant é animado quando a página é ca
 
 ## Tecnologias Utilizadas
 
-### HTML: Responsável pela estrutura da página e pelos elementos.
+#### HTML: Responsável pela estrutura da página e pelos elementos.
 
-### CSS: Para estilizar e dar a aparência autêntica do Valorant ao menu.
+#### CSS: Para estilizar e dar a aparência autêntica do Valorant ao menu.
 
-##Como Utilizar
+## Como Utilizar
 
 bash
 Copy code
@@ -25,7 +25,7 @@ cd Valorant-Menu-Project
 <br>
 Se você deseja contribuir para este projeto, sinta-se à vontade para abrir issues, enviar pull requests ou propor melhorias. Estamos abertos a colaborações!
 
-### Créditos
+## Créditos
 <br>
 Este projeto foi inspirado no jogo Valorant, desenvolvido pela Riot Games. Agradecemos à comunidade Valorant pelo apoio e pela inspiração para criar este menu inicial.
 
