@@ -27,6 +27,4 @@ Se você deseja contribuir para este projeto, sinta-se à vontade para abrir iss
 
 ## Créditos
 <br>
-Este projeto foi inspirado no jogo Valorant, desenvolvido pela Riot Games. Agradecemos à comunidade Valorant pelo apoio e pela inspiração para criar este menu inicial.
-
-Aproveite explorando este menu inicial do Valorant! Se você tiver alguma dúvida ou sugestão, não hesite em entrar em contato.
+Este projeto foi inspirado no jogo Valorant, desenvolvido pela Riot Games.
