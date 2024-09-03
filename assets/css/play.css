@@ -290,7 +290,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px 0 0 0;
+    padding: 60px 0 0 0;
 }
 
 .card-party {
@@ -450,7 +450,7 @@ input:checked+.slider:before {
     font-family: 'Bebas Neue', sans-serif;
     color: #ffffff;
     font-size: 1rem;
-    background: linear-gradient(0deg, #fd3e89 0%, rgba(222, 34, 34, 0.687) 100%);
+    background: linear-gradient(0deg, #fd3e8a0c 0%, rgba(237, 4, 4, 0.687) 100%);
     border: 1px solid #ffffff;
 }
 
