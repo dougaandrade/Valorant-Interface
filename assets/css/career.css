@@ -26,17 +26,20 @@ ion-icon {
 
 main {
     margin: 0 auto;
+    width: 100%;
+    height: 100%;
 }
 
 /* Navbar */
 
 .navbar {
     width: 100%;
-    height: 40px;
     display: flex;
+    height: 100%;
     justify-content: space-between;
     color: #fff;
     align-items: center;
+    z-index: 999;
 }
 
 .background-nav {
@@ -114,11 +117,13 @@ main {
 
 .navbar-button {
     width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
 }
 
 .button0 {
+    display: flex;
     width: 34px;
 }
 
@@ -129,6 +134,7 @@ main {
 }
 
 .button-text {
+    width: 100%;
     font-size: 1rem;
     display: flex;
     font-family: 'Inter', sans-serif;
@@ -194,17 +200,20 @@ main {
 /* NavbarProfile */
 
 .navbar-profile {
-    float: right;
+    position: absolute;
+    right: 0;
     display: flex;
+    height: 100%;
     flex-direction: row;
     color: white;
     cursor: pointer;
 }
 
 .nav-bar-vlrt-bar {
+    width: 100%;
+    height: 100%;
     padding: 3px;
     gap: 3px;
-    height: 94.6vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -239,7 +248,6 @@ main {
 
 .select-mode {
     max-width: 100%;
-    margin: 0 auto;
     display: flex;
     align-items: center;
     padding: 1rem 0 0 0;
@@ -251,22 +259,20 @@ main {
 }
 
 .radio-input {
-    --container_width: 33%;
-    position: relative;
+    width: 100%;
     display: flex;
-    height: 2.3rem;
+    position: relative;
     align-items: center;
     color: #ffffff;
     font-family: 'Inter', sans-serif;
     justify-content: center;
     text-transform: uppercase;
-    width: var(--container_width);
     overflow: hidden;
-    border-bottom: 1px solid #ffffff;
+
 }
 
 .radio-input label {
-    width: 100%;
+    width: 8%;
     padding: 10px;
     cursor: pointer;
     display: flex;
@@ -276,6 +282,7 @@ main {
     font-weight: 900;
     letter-spacing: -1px;
     font-size: 0.8rem;
+    border-bottom: 1px solid #ffffff;  
 }
 
 .radio-input label:has(input:checked) {
@@ -289,6 +296,7 @@ main {
 
 /* Rank */
 .rank {
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -303,13 +311,13 @@ main {
 
 .img-rank {
     padding: 1.5rem 0 0.8rem 0;
-    width: 8rem;
+    width: 6rem;
 }
 
 .rank-text {
     text-align: center;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #feffbf;
 }
 
@@ -395,11 +403,13 @@ main {
 
 .game-history {
     display: flex;
+    width: 100%;
+    height: 40rem;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     gap: 4px;
-    padding: 4rem 0 0 0;
+    padding: 2rem 0 0 0;
 }
 
 .icon-rank {
@@ -407,9 +417,7 @@ main {
 }
 
 .icon-rank-1 {
-    width: 6%;
-    height: 6%;
-    padding: 0 0 0 0;
+    width: 5%;
 }
 
 .icon-map {
@@ -432,12 +440,13 @@ ul.list {
 .card-list {
     display: flex;
     align-items: center;
-    width: 53rem;
+    width: 50%;
+    height: 15rem;
     background: #00ffd531;
     border-left: 4px solid #00ffd5;
     transition: all 0.3s ease;
     cursor: pointer;
-    justify-content: flex-start;
+    justify-content: space-between;
     gap: 10px;
     border-radius: 2px;
     overflow: hidden;

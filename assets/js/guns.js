@@ -11,21 +11,25 @@ const imagensGuns = [
 const imgprinc = document.querySelector(".ammo_display");
 const img_main = document.querySelector(".arms_content");
 const cards = document.querySelectorAll(".card");
-let imagemAtual = 0;
+let imagemAtual = imagensGuns;
 
-cards.forEach((card, index) => {
-  card.addEventListener("click", function () {
-    if (img_main.querySelector("img")) {
-      img_main.querySelector("img").remove();
-    }
+function exibirClickGuns() {
+  cards.forEach((card, index) => {
+    card.addEventListener("click", function () {
+      if (img_main.querySelector("img")) {
+        img_main.querySelector("img").remove();
+      }
 
-    // Cria e exibe a nova imagem selecionada
-    const imgSelecionada = document.createElement("img");
-    imgSelecionada.src = imagensGuns[index];
-    imgSelecionada.className = "armas_main";
-    imgSelecionada.style.margin = "2rem";
-    img_main.appendChild(imgSelecionada);
+      // Cria e exibe a nova imagem selecionada
+      const imgSelecionada = document.createElement("img");
+      imgSelecionada.src = imagensGuns[index];
+      imgSelecionada.className = "armas_main";
+      imgSelecionada.style.margin = "1rem";
+      img_main.appendChild(imgSelecionada);
 
-    imagemAtual = index;
+      imagemAtual = index;
+    });
   });
-});
+}
+
+exibirClickGuns();

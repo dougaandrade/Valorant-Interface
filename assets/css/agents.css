@@ -27,6 +27,8 @@ ion-icon {
 
 main {
     margin: 0 auto;
+    width: 100%;
+    height: 100%;
 }
 
 /* Reset some default styles */
@@ -40,11 +42,12 @@ main {
 
 .navbar {
     width: 100%;
-    height: 40px;
     display: flex;
+    height: 100%;
     justify-content: space-between;
     color: #fff;
     align-items: center;
+    z-index: 999;
 }
 
 .background-nav {
@@ -122,11 +125,13 @@ main {
 
 .navbar-button {
     width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
 }
 
 .button0 {
+    display: flex;
     width: 34px;
 }
 
@@ -137,6 +142,7 @@ main {
 }
 
 .button-text {
+    width: 100%;
     font-size: 1rem;
     display: flex;
     font-family: 'Inter', sans-serif;
@@ -201,18 +207,20 @@ main {
 /* NavbarProfile */
 
 .navbar-profile {
-    float: right;
+    position: absolute;
+    right: 0;
     display: flex;
+    height: 100%;
     flex-direction: row;
     color: white;
     cursor: pointer;
 }
 
 .nav-bar-vlrt-bar {
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
     padding: 3px;
-    gap: 1px;
-    height: 100vh;
+    gap: 3px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -302,7 +310,7 @@ main {
 }
 
 .agents-content {
-    height: 35rem;
+    height: 40rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -321,7 +329,7 @@ main {
 /* Agents */
 
 .agents-cards {
-    width: 62%;
+    width: 45%;
     display: flex;
     margin: 0 auto;
 }
@@ -375,7 +383,7 @@ main {
     z-index: 99;
     max-width: 100%;
     margin: 0 auto;
-    width: 60%;
+    width: 45%;
 }
 
 

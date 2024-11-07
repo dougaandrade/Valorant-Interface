@@ -28,17 +28,19 @@ ion-icon {
 
 main {
     margin: 0 auto;
-}
-
+    width: 100%;
+    height: 100%;
+} 
 /* Navbar */
 
 .navbar {
     width: 100%;
-    height: 40px;
     display: flex;
+    height: 100%;
     justify-content: space-between;
     color: #fff;
     align-items: center;
+    z-index: 999;
 }
 
 .background-nav {
@@ -116,11 +118,13 @@ main {
 
 .navbar-button {
     width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
 }
 
 .button0 {
+    display: flex;
     width: 34px;
 }
 
@@ -131,10 +135,12 @@ main {
 }
 
 .button-text {
+    width: 100%;
     font-size: 1rem;
     display: flex;
     font-family: 'Inter', sans-serif;
 }
+
 
 .navbar-miss {
     display: flex;
@@ -195,17 +201,21 @@ main {
 /* NavbarProfile */
 
 .navbar-profile {
+    position: absolute;
+    right: 0;
     display: flex;
+    height: 100%;
     flex-direction: row;
-    float: right;
     color: white;
     cursor: pointer;
 }
 
+
 .nav-bar-vlrt-bar {
+    width: 100%;
+    height: 100%;
     padding: 3px;
     gap: 3px;
-    height: 94.6vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -213,6 +223,7 @@ main {
     background-color: #303b46;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
 }
+
 
 .itens-bar {
     display: flex;
@@ -237,10 +248,14 @@ main {
 
 /* Main Collection */
 .card-collection {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
+    padding: 3rem;
+    gap: 20px;
 }
 
 
@@ -250,7 +265,6 @@ main {
 /* Player Card & Spray */
 
 .card-player-spray {
-    width: 15%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -258,7 +272,7 @@ main {
 }
 
 .player {
-    width: 15%;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -266,7 +280,7 @@ main {
 }
 
 .img-player {
-    width: 80%;
+    width: 70%;
     aspect-ratio: 1/2;
     height: auto;
 }
@@ -276,7 +290,8 @@ main {
     align-items: center;
     justify-content: center;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    padding: 5px;
     font-weight: 200;
     color: #ffffff;
 }
@@ -294,7 +309,6 @@ main {
 }
 
 .content-spray {
-
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -306,7 +320,8 @@ main {
     align-items: center;
     justify-content: center;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    padding: 5px;
     font-weight: 200;
     color: #ffffff;
 }
@@ -336,6 +351,7 @@ main {
 /* SIDEARMS */
 
 .container-side {
+    width: 100%;
     display: flex;
     flex-direction: column;
     border: 1px red solid;
@@ -343,11 +359,11 @@ main {
 }
 
 .side_arms {
-    width: 15%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 10px;
 }
 
 .text-side-h1 {
@@ -355,8 +371,9 @@ main {
     align-items: center;
     justify-content: center;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 100;
+    font-size: 2rem;
+    font-weight: 200;
+    padding: 2px;
     color: #ffffff;
 }
 
