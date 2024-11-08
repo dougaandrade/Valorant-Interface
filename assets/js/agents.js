@@ -22,10 +22,8 @@ const imagens = [
   "../img/Sova_Artwork_Full.webp",
   "../img/Skye_Artwork_Full.webp",
 ];
-const imgprinc = document.querySelector(".ammo_display");
+
 const img_main = document.querySelector(".agents-content");
-const cards = document.querySelectorAll(".card");
-let imagemAtual = imagens; // Armazena o índice da imagem atual
 
 // Cria e exibe a primeira imagem
 function exibirImagem() {
@@ -35,12 +33,30 @@ function exibirImagem() {
   img_main.appendChild(imgSelecionada);
 }
 
+function exibirCards() {
+  const cardAgents = document.querySelector(".content");
+
+  imagens.forEach((agent) => {
+    const cardHTML = `
+      <div class="card ">
+        <div class="content-card">
+          <img src="${agent}" class="icon-agents">
+          <ion-icon name="lock-closed" class="icon-close"></ion-icon>
+        </div>
+      </div>
+    `;
+    cardAgents.insertAdjacentHTML("beforeend", cardHTML);
+  });
+}
+
 function personagens() {
+  const cards = document.querySelectorAll(".episo");
   cards.forEach((card, index) => {
     card.addEventListener("click", function () {
       // Remove a imagem anterior
-      if (img_main.querySelector("img")) {
-        img_main.querySelector("img").remove();
+      const imagemAnterior = img_main.querySelector("img");
+      if (imagemAnterior) {
+        imagemAnterior.remove();
       }
 
       // Cria e exibe a nova imagem selecionada
@@ -49,11 +65,11 @@ function personagens() {
       imgSelecionada.className = "agents_main";
       imgSelecionada.style.margin = "1rem";
       img_main.appendChild(imgSelecionada);
-
-      imagemAtual = index; // Atualiza o índice da imagem atual
     });
   });
 }
 
-exibirImagem();
+// Chama as funções em ordem
+exibirCards();
 personagens();
+exibirImagem();
