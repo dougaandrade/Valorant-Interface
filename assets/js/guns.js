@@ -8,12 +8,36 @@ const imagensGuns = [
   "../img/ammo7.webp",
 ];
 
-const imgprinc = document.querySelector(".ammo_display");
-const img_main = document.querySelector(".arms_content");
-const cards = document.querySelectorAll(".card");
 let imagemAtual = imagensGuns;
 
+function exibirImagem() {
+  const img_main = document.querySelector(".arms_content");
+  img_main.innerHTML = `<div class="showroomarms">
+   <img src="${imagemAtual[0]}">
+  </div>`;
+}
+
+function exibirCards() {
+  const cardGuns = document.querySelector(".episode");
+  cardGuns.style.margin = "1rem";
+
+  imagensGuns.forEach((guns) => {
+    const cardHTML = `
+    <div class="card">
+        <div class="ep-basic">
+          <span class="span">TIER 2</span>
+          <span class="span"><ion-icon name="lock-closed" class="icon-close"></ion-icon></span>
+          <img src="${guns}" class="icon-guns">
+        </div>
+      </div>  
+    `;
+    cardGuns.insertAdjacentHTML("beforeend", cardHTML);
+  });
+}
+
 function exibirClickGuns() {
+  const img_main = document.querySelector(".arms_content");
+  const cards = document.querySelectorAll(".card");
   cards.forEach((card, index) => {
     card.addEventListener("click", function () {
       if (img_main.querySelector("img")) {
@@ -32,4 +56,6 @@ function exibirClickGuns() {
   });
 }
 
+exibirCards();
 exibirClickGuns();
+exibirImagem();

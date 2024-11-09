@@ -350,6 +350,14 @@ main {
 
 /* Arms */
 
+.showroomarms {
+    display: flex;
+    padding: 3rem 0 3rem 0;
+    align-items: center;
+    justify-content: center;
+    position: static;
+}   
+
 .armas_main {
     height: 20rem;
     width: 30rem;
@@ -401,13 +409,7 @@ main {
     text-transform: uppercase;
 }
 
-.card,
-.card1,
-.card2,
-.card3,
-.card4,
-.card5,
-.card6 {
+.card{
     width: 120px;
     height: auto;
     background: #ffffff4d;
@@ -417,46 +419,10 @@ main {
     background-position: center;
 }
 
-.img0 {
-    background-image: url('../img/ammo1.webp');
-}
 
-.img1 {
-    background-image: url('../img/ammo2.webp');
-}
-
-.img2 {
-    background-image: url('../img/ammo3.webp');
-}
-
-.img3 {
-    background-image: url('../img/ammo4.webp');
-}
-
-.img4 {
-    background-image: url('../img/ammo5.webp');
-}
-
-.img5 {
-    background-image: url('../img/ammo6.webp');
-
-}
-
-.img6 {
-    background-image: url('../img/ammo7.webp');
-}
-
-.card:hover,
-.card1:hover,
-.card2:hover,
-.card3:hover,
-.card4:hover,
-.card5:hover,
-.card6:hover {
+.card:hover{
     transform: scale(1.05);
 }
-
-
 
 .title {
     margin: 15px 0 0 15px;
@@ -497,47 +463,10 @@ main {
     margin: 7.7rem;
 }
 
+.icon-guns {
+    width: 50px;
+    height: 50px;
+}
+
 /* Fim  EP Itens */
 
-/* CHAT */
-
-.chat {
-    display: flex;
-    width: 19rem;
-    height: 2rem;
-}
-
-.card-chat {
-    display: flex;
-    width: 20rem;
-    height: 2rem;
-    align-content: center;
-    flex-wrap: wrap;
-    border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.445);
-}
-
-.text-chat {
-    display: flex;
-    padding: 0 5px 0 10px;
-    align-items: center;
-    font-family: 'Inter', sans-serif;
-    font-size: 0.8rem;
-    font-weight: 100;
-    color: #00e1ff;
-}
-
-.caixa-text-chat {
-    width: 13rem;
-    height: 1.3rem;
-    border-radius: 1px;
-    border: none;
-    background-color: rgba(70, 70, 70, 0.123);
-}
-
-.icon-chat {
-    padding: 0 0 0 10px;
-    color: white;
-}
-
-/* Final Chat */
