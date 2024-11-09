@@ -1,33 +1,34 @@
 const imagensGuns = [
-  "../img/ammo1.webp",
-  "../img/ammo2.webp",
-  "../img/ammo3.webp",
-  "../img/ammo4.webp",
-  "../img/ammo5.webp",
-  "../img/ammo6.webp",
-  "../img/ammo7.webp",
+  { tier: "TIER 1", guns: "../img/ammo1.webp" },
+  { tier: "TIER 2", guns: "../img/ammo2.webp" },
+  { tier: "TIER 3", guns: "../img/ammo3.webp" },
+  { tier: "TIER 4", guns: "../img/ammo4.webp" },
+  { tier: "TIER 5", guns: "../img/ammo5.webp" },
+  { tier: "TIER 6", guns: "../img/ammo6.webp" },
+  { tier: "TIER 7", guns: "../img/ammo7.webp" },
 ];
 
 let imagemAtual = imagensGuns;
 
 function exibirImagem() {
   const img_main = document.querySelector(".arms_content");
-  img_main.innerHTML = `<div class="showroomarms">
-   <img src="${imagemAtual[0]}">
+  img_main.style.margin = "1rem";
+  img_main.innerHTML = `
+   <img src="${imagemAtual[0].guns}" class="armas_main">
   </div>`;
 }
 
 function exibirCards() {
   const cardGuns = document.querySelector(".episode");
-  cardGuns.style.margin = "1rem";
-
   imagensGuns.forEach((guns) => {
     const cardHTML = `
     <div class="card">
         <div class="ep-basic">
-          <span class="span">TIER 2</span>
-          <span class="span"><ion-icon name="lock-closed" class="icon-close"></ion-icon></span>
-          <img src="${guns}" class="icon-guns">
+        <img src="${guns.guns}" class="icon-guns">
+        <div class="card-span">
+        <span class="span">${guns.tier}</span>
+        <span class="span"><ion-icon name="lock-closed" class="icon-close"></ion-icon></span>
+        </div>
         </div>
       </div>  
     `;
@@ -46,9 +47,8 @@ function exibirClickGuns() {
 
       // Cria e exibe a nova imagem selecionada
       const imgSelecionada = document.createElement("img");
-      imgSelecionada.src = imagensGuns[index];
+      imgSelecionada.src = imagensGuns[index].guns;
       imgSelecionada.className = "armas_main";
-      imgSelecionada.style.margin = "1rem";
       img_main.appendChild(imgSelecionada);
 
       imagemAtual = index;
