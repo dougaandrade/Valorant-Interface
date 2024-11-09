@@ -50,7 +50,7 @@ function exibirCards() {
 }
 
 function personagens() {
-  const cards = document.querySelectorAll(".episo");
+  const cards = document.querySelectorAll(".card");
   cards.forEach((card, index) => {
     card.addEventListener("click", function () {
       // Remove a imagem anterior
